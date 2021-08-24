@@ -10,7 +10,7 @@
 <style>
 body {
 	color: #fff;
-	background: #19aa8d;
+	background: rgb(255, 255, 255);
 	font-family: 'Roboto', sans-serif;
 }
 .form-control {
@@ -61,7 +61,7 @@ body {
 .signup-form .btn, .signup-form .btn:active {        
 	font-size: 16px;
 	font-weight: bold;
-	background: #19aa8d !important;
+	background: rgb(255, 255, 255) !important;
 	border: none;
 	min-width: 140px;
 }
@@ -143,7 +143,7 @@ body {
 						<i class="fa fa-lock"></i>
 					</span>                    
 				</div>
-				<input type="text" class="form-control" placeholder="Password" required th:field="*{password}" minlength="6" maxlength="10">
+				<input type="password" class="form-control" placeholder="Password" required th:field="*{password}" minlength="6" maxlength="10">
 			</div>
         </div>
 		<div class="form-group">
